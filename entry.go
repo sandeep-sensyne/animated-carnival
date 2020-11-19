@@ -1,7 +1,9 @@
 package main
 
-import "apidefs/tykdefs"
+import (
+	"animated-carnival/tykdefs"
+)
 
 func main()  {
-	Hello()
+	tykdefs.Hello()
 }
